@@ -1,0 +1,92 @@
+body{
+  background-color: #C1DEAE;
+
+}
+hr{
+  border-style:None;
+  border-top-style: dotted;
+  border-color: #219F94;
+  border-width: 7px;
+  width:20%;
+
+}
+p{
+  animation-duration: 4s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0.1%;
+    width: 100%;
+  }
+}
+ul{
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0.1%;
+    width: 100%;
+  }
+}
+h1{
+  animation-duration: 1s;
+  animation-name: slidein;
+  color:#E3B7A0;}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0.1%;
+    width: 100%;
+  }
+}
+h3{
+  animation-duration: 2s;
+  animation-name: slidein;
+color: #E3B7A0;}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0.1%;
+    width: 100%;
+  }
+}
+img{
+  animation-duration: 3s;
+  animation-name: slidein;
+color: #E3B7A0;}
+
+@keyframes slidein {
+  from {
+    margin-left: 600%;
+    width: 100%;
+  }
+
+  to {
+    margin-left: 0.1%;
+    width: 100%;
+  }
+}
